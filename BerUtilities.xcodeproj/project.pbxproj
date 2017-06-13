@@ -13,6 +13,7 @@
 		4C38A2CF1EF05A1700565381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C38A2CE1EF05A1700565381 /* Assets.xcassets */; };
 		4C38A2D21EF05A1700565381 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C38A2D01EF05A1700565381 /* LaunchScreen.storyboard */; };
 		4C38A2DD1EF05A1700565381 /* BerUtilitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C38A2DC1EF05A1700565381 /* BerUtilitiesTests.swift */; };
+		4C38A2EA1EF062ED00565381 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C38A2E91EF062ED00565381 /* Reachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		4C38A2D81EF05A1700565381 /* BerUtilitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BerUtilitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C38A2DC1EF05A1700565381 /* BerUtilitiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerUtilitiesTests.swift; sourceTree = "<group>"; };
 		4C38A2DE1EF05A1700565381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C38A2E91EF062ED00565381 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		4C38A2C61EF05A1700565381 /* BerUtilities */ = {
 			isa = PBXGroup;
 			children = (
+				4C38A2E91EF062ED00565381 /* Reachability.swift */,
 				4C38A2C71EF05A1700565381 /* AppDelegate.swift */,
 				4C38A2C91EF05A1700565381 /* ViewController.swift */,
 				4C38A2CB1EF05A1700565381 /* Main.storyboard */,
@@ -203,6 +206,7 @@
 			files = (
 				4C38A2CA1EF05A1700565381 /* ViewController.swift in Sources */,
 				4C38A2C81EF05A1700565381 /* AppDelegate.swift in Sources */,
+				4C38A2EA1EF062ED00565381 /* Reachability.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +416,7 @@
 				4C38A2E31EF05A1700565381 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C38A2E41EF05A1700565381 /* Build configuration list for PBXNativeTarget "BerUtilitiesTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +425,7 @@
 				4C38A2E61EF05A1700565381 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
